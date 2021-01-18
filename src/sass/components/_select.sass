@@ -1,0 +1,47 @@
+.select
+    position: relative
+    background-color: #fff
+    width: 258px
+
+    border-radius: 15px
+    &-control
+        display: flex
+        justify-content: space-between
+        padding: 8px 20px
+        cursor: pointer
+        &-arrow
+            margin-top: -2px
+        .open
+            transform: rotate(180deg)
+    &-menu
+        padding-bottom: 10px
+        margin-right: 5px
+        overflow-y: auto
+        height: 100px
+        &::-webkit-scrollbar
+            width: 3px
+
+        &::-webkit-scrollbar-track
+
+        &::-webkit-scrollbar-thumb
+            background: #E0E9F2
+            border-radius: 15px
+
+        .option
+            padding: 7px 20px
+            margin-right: 10px
+            border-radius: 0px 10px 10px 0px
+            cursor: pointer
+            &:hover
+                background: #F3F8FC
+
+    &-text
+        font-family: SF UI Display
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        line-height: 18px
+
+        /* #2C2C2C */
+
+        color: #2C2C2C
